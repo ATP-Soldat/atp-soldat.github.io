@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20pt;
+    font-family: 'POPPINS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+html, body
+{   
+    min-height: 100vh;
+    background: #2d2d2d;
+    height: 130%;
+    width: 100%; 
+}    
+
+
+.nav ul{
+  margin: 0;
+}
+
+
+.nav li{
+  display: inline;
+  padding: 0 10%;
+}
+
+.nav a{
+    padding: 0.4rem;
+    display: inline-block;
+    color: #f2da5ffc;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #ebf561fc;
+    color: rgb(48, 48, 48);
+    border-radius: 40px;
+}
+
+.nav{
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: lighter;
+  background-color: #282828;
+  border-bottom: 3px solid #efe44a;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+.soldat{
+    float: left;
+    height: 120px;
+    width: 135px;
+    margin: 15px;
+    border-radius: 100%;
+}
+
+.soldat2{
+    position: absolute;
+    height: 310px;
+    width: 300px;
+    margin: 15px;
+    top: calc(50vh - 175px);
+    right: 20%;
+    border-radius: 20%;
+}
+
+.discord{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    background-size: 0% 0.1em;
+    background-position: 100% 95%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s;
+    color: #e4f44f;
+    cursor: pointer
+}
+
+
+
+h1{
+    padding-left: 5%;
+    position: relative;
+    /*text-align: center;*/
+    font-size: 2em;
+    color: #efe44a;
+}
+
+h2{
+    padding-left: 5%;
+    position: relative;
+    font-size: 1.5em;
+    color: rgb(148, 148, 148);
+}
+
+h3{
+    padding-left: 5%;
+    position: relative;
+    font-size: 0.8em;
+    color: rgb(173, 173, 173);
+}
+
+p{
+    padding-left: 5%;
+    position: relative;
+    font-size: 1em;
+    color: rgb(216, 216, 216);
+}
